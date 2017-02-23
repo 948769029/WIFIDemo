@@ -15,6 +15,21 @@
 		18A1407C1DB7104100B2A9AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A1407A1DB7104100B2A9AB /* LaunchScreen.storyboard */; };
 		18A140871DB7104100B2A9AB /* WIFIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140861DB7104100B2A9AB /* WIFIDemoTests.m */; };
 		18A140921DB7104200B2A9AB /* WIFIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140911DB7104200B2A9AB /* WIFIDemoUITests.m */; };
+		18A140BE1DB7106400B2A9AB /* LocalConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140A21DB7106400B2A9AB /* LocalConnection.m */; };
+		18A140BF1DB7106400B2A9AB /* FSMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140A61DB7106400B2A9AB /* FSMEngine.m */; };
+		18A140C01DB7106400B2A9AB /* FSMStateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140A81DB7106400B2A9AB /* FSMStateUtil.m */; };
+		18A140C11DB7106400B2A9AB /* ReachState.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140AA1DB7106400B2A9AB /* ReachState.m */; };
+		18A140C21DB7106400B2A9AB /* ReachStateLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140AC1DB7106400B2A9AB /* ReachStateLoading.m */; };
+		18A140C31DB7106400B2A9AB /* ReachStateUnloaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140AE1DB7106400B2A9AB /* ReachStateUnloaded.m */; };
+		18A140C41DB7106400B2A9AB /* ReachStateUnReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140B01DB7106400B2A9AB /* ReachStateUnReachable.m */; };
+		18A140C51DB7106400B2A9AB /* ReachStateWIFI.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140B21DB7106400B2A9AB /* ReachStateWIFI.m */; };
+		18A140C61DB7106400B2A9AB /* ReachStateWWAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140B41DB7106400B2A9AB /* ReachStateWWAN.m */; };
+		18A140C71DB7106400B2A9AB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A140B51DB7106400B2A9AB /* Info.plist */; };
+		18A140C81DB7106400B2A9AB /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140B81DB7106400B2A9AB /* PingFoundation.m */; };
+		18A140C91DB7106400B2A9AB /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140BA1DB7106400B2A9AB /* PingHelper.m */; };
+		18A140CA1DB7106400B2A9AB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 18A140BB1DB7106400B2A9AB /* README.md */; };
+		18A140CB1DB7106400B2A9AB /* RealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A140BD1DB7106400B2A9AB /* RealReachability.m */; };
+		18A140CE1DB7107F00B2A9AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A140CD1DB7107F00B2A9AB /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,34 @@
 		18A1408D1DB7104200B2A9AB /* WIFIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WIFIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A140911DB7104200B2A9AB /* WIFIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WIFIDemoUITests.m; sourceTree = "<group>"; };
 		18A140931DB7104200B2A9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A140A11DB7106400B2A9AB /* LocalConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalConnection.h; sourceTree = "<group>"; };
+		18A140A21DB7106400B2A9AB /* LocalConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalConnection.m; sourceTree = "<group>"; };
+		18A140A41DB7106400B2A9AB /* FSMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMDefines.h; sourceTree = "<group>"; };
+		18A140A51DB7106400B2A9AB /* FSMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMEngine.h; sourceTree = "<group>"; };
+		18A140A61DB7106400B2A9AB /* FSMEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMEngine.m; sourceTree = "<group>"; };
+		18A140A71DB7106400B2A9AB /* FSMStateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMStateUtil.h; sourceTree = "<group>"; };
+		18A140A81DB7106400B2A9AB /* FSMStateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMStateUtil.m; sourceTree = "<group>"; };
+		18A140A91DB7106400B2A9AB /* ReachState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachState.h; sourceTree = "<group>"; };
+		18A140AA1DB7106400B2A9AB /* ReachState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachState.m; sourceTree = "<group>"; };
+		18A140AB1DB7106400B2A9AB /* ReachStateLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateLoading.h; sourceTree = "<group>"; };
+		18A140AC1DB7106400B2A9AB /* ReachStateLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateLoading.m; sourceTree = "<group>"; };
+		18A140AD1DB7106400B2A9AB /* ReachStateUnloaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateUnloaded.h; sourceTree = "<group>"; };
+		18A140AE1DB7106400B2A9AB /* ReachStateUnloaded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateUnloaded.m; sourceTree = "<group>"; };
+		18A140AF1DB7106400B2A9AB /* ReachStateUnReachable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateUnReachable.h; sourceTree = "<group>"; };
+		18A140B01DB7106400B2A9AB /* ReachStateUnReachable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateUnReachable.m; sourceTree = "<group>"; };
+		18A140B11DB7106400B2A9AB /* ReachStateWIFI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateWIFI.h; sourceTree = "<group>"; };
+		18A140B21DB7106400B2A9AB /* ReachStateWIFI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWIFI.m; sourceTree = "<group>"; };
+		18A140B31DB7106400B2A9AB /* ReachStateWWAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachStateWWAN.h; sourceTree = "<group>"; };
+		18A140B41DB7106400B2A9AB /* ReachStateWWAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachStateWWAN.m; sourceTree = "<group>"; };
+		18A140B51DB7106400B2A9AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A140B71DB7106400B2A9AB /* PingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingFoundation.h; sourceTree = "<group>"; };
+		18A140B81DB7106400B2A9AB /* PingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingFoundation.m; sourceTree = "<group>"; };
+		18A140B91DB7106400B2A9AB /* PingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingHelper.h; sourceTree = "<group>"; };
+		18A140BA1DB7106400B2A9AB /* PingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHelper.m; sourceTree = "<group>"; };
+		18A140BB1DB7106400B2A9AB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18A140BC1DB7106400B2A9AB /* RealReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealReachability.h; sourceTree = "<group>"; };
+		18A140BD1DB7106400B2A9AB /* RealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealReachability.m; sourceTree = "<group>"; };
+		18A140CD1DB7107F00B2A9AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A140CE1DB7107F00B2A9AB /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +129,7 @@
 				18A140851DB7104100B2A9AB /* WIFIDemoTests */,
 				18A140901DB7104200B2A9AB /* WIFIDemoUITests */,
 				18A1406A1DB7104100B2A9AB /* Products */,
+				18A140CC1DB7107F00B2A9AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +150,7 @@
 				18A140701DB7104100B2A9AB /* AppDelegate.m */,
 				18A140721DB7104100B2A9AB /* ViewController.h */,
 				18A140731DB7104100B2A9AB /* ViewController.m */,
+				18A1409F1DB7106400B2A9AB /* RealReachability */,
 				18A140751DB7104100B2A9AB /* Main.storyboard */,
 				18A140781DB7104100B2A9AB /* Assets.xcassets */,
 				18A1407A1DB7104100B2A9AB /* LaunchScreen.storyboard */,
@@ -138,6 +184,72 @@
 				18A140931DB7104200B2A9AB /* Info.plist */,
 			);
 			path = WIFIDemoUITests;
+			sourceTree = "<group>";
+		};
+		18A1409F1DB7106400B2A9AB /* RealReachability */ = {
+			isa = PBXGroup;
+			children = (
+				18A140A01DB7106400B2A9AB /* Connection */,
+				18A140A31DB7106400B2A9AB /* FSM */,
+				18A140B51DB7106400B2A9AB /* Info.plist */,
+				18A140B61DB7106400B2A9AB /* Ping */,
+				18A140BC1DB7106400B2A9AB /* RealReachability.h */,
+				18A140BD1DB7106400B2A9AB /* RealReachability.m */,
+			);
+			path = RealReachability;
+			sourceTree = "<group>";
+		};
+		18A140A01DB7106400B2A9AB /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				18A140A11DB7106400B2A9AB /* LocalConnection.h */,
+				18A140A21DB7106400B2A9AB /* LocalConnection.m */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		18A140A31DB7106400B2A9AB /* FSM */ = {
+			isa = PBXGroup;
+			children = (
+				18A140A41DB7106400B2A9AB /* FSMDefines.h */,
+				18A140A51DB7106400B2A9AB /* FSMEngine.h */,
+				18A140A61DB7106400B2A9AB /* FSMEngine.m */,
+				18A140A71DB7106400B2A9AB /* FSMStateUtil.h */,
+				18A140A81DB7106400B2A9AB /* FSMStateUtil.m */,
+				18A140A91DB7106400B2A9AB /* ReachState.h */,
+				18A140AA1DB7106400B2A9AB /* ReachState.m */,
+				18A140AB1DB7106400B2A9AB /* ReachStateLoading.h */,
+				18A140AC1DB7106400B2A9AB /* ReachStateLoading.m */,
+				18A140AD1DB7106400B2A9AB /* ReachStateUnloaded.h */,
+				18A140AE1DB7106400B2A9AB /* ReachStateUnloaded.m */,
+				18A140AF1DB7106400B2A9AB /* ReachStateUnReachable.h */,
+				18A140B01DB7106400B2A9AB /* ReachStateUnReachable.m */,
+				18A140B11DB7106400B2A9AB /* ReachStateWIFI.h */,
+				18A140B21DB7106400B2A9AB /* ReachStateWIFI.m */,
+				18A140B31DB7106400B2A9AB /* ReachStateWWAN.h */,
+				18A140B41DB7106400B2A9AB /* ReachStateWWAN.m */,
+			);
+			path = FSM;
+			sourceTree = "<group>";
+		};
+		18A140B61DB7106400B2A9AB /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				18A140B71DB7106400B2A9AB /* PingFoundation.h */,
+				18A140B81DB7106400B2A9AB /* PingFoundation.m */,
+				18A140B91DB7106400B2A9AB /* PingHelper.h */,
+				18A140BA1DB7106400B2A9AB /* PingHelper.m */,
+				18A140BB1DB7106400B2A9AB /* README.md */,
+			);
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		18A140CC1DB7107F00B2A9AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18A140CD1DB7107F00B2A9AB /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +319,7 @@
 				TargetAttributes = {
 					18A140681DB7104100B2A9AB = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ESEPHFC33D;
 						ProvisioningStyle = Automatic;
 					};
 					18A140811DB7104100B2A9AB = {
@@ -246,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A140C71DB7106400B2A9AB /* Info.plist in Resources */,
 				18A1407C1DB7104100B2A9AB /* LaunchScreen.storyboard in Resources */,
 				18A140791DB7104100B2A9AB /* Assets.xcassets in Resources */,
 				18A140771DB7104100B2A9AB /* Main.storyboard in Resources */,
@@ -273,9 +387,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A140C81DB7106400B2A9AB /* PingFoundation.m in Sources */,
+				18A140C21DB7106400B2A9AB /* ReachStateLoading.m in Sources */,
+				18A140CB1DB7106400B2A9AB /* RealReachability.m in Sources */,
+				18A140C11DB7106400B2A9AB /* ReachState.m in Sources */,
+				18A140C91DB7106400B2A9AB /* PingHelper.m in Sources */,
 				18A140741DB7104100B2A9AB /* ViewController.m in Sources */,
 				18A140711DB7104100B2A9AB /* AppDelegate.m in Sources */,
 				18A1406E1DB7104100B2A9AB /* main.m in Sources */,
+				18A140BE1DB7106400B2A9AB /* LocalConnection.m in Sources */,
+				18A140C01DB7106400B2A9AB /* FSMStateUtil.m in Sources */,
+				18A140BF1DB7106400B2A9AB /* FSMEngine.m in Sources */,
+				18A140C61DB7106400B2A9AB /* ReachStateWWAN.m in Sources */,
+				18A140C41DB7106400B2A9AB /* ReachStateUnReachable.m in Sources */,
+				18A140CA1DB7106400B2A9AB /* README.md in Sources */,
+				18A140C51DB7106400B2A9AB /* ReachStateWIFI.m in Sources */,
+				18A140C31DB7106400B2A9AB /* ReachStateUnloaded.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +551,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESEPHFC33D;
 				INFOPLIST_FILE = WIFIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongjian.WIFIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +564,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ESEPHFC33D;
 				INFOPLIST_FILE = WIFIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongjian.WIFIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
